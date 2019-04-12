@@ -17,7 +17,7 @@ const routers: Route[] = [
   {path: 'character-list', component: CharacterListPageComponent},
   {path: 'character-item/:id', component: CharacterItemPageComponent},
   {path: '**', component: NotFoundPageComponent}
-]
+];
 
 @NgModule({
   declarations: [
