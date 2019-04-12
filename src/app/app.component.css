@@ -1,0 +1,35 @@
+a{
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  background-color: #004282;
+  border: .5px solid white;
+}
+a:first-child{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+a:last-child{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.activate{
+  background-color: #004299;
+}
+
+.header{
+  height: 50px;
+  background-color: #004282;
+}
+
+.menuWrapper{
+  margin: 5px;
+}
+
+p{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}

@@ -1,0 +1,14 @@
+img{
+  width: 200px;
+  height: 200px;
+  display: block;
+  border-radius: 5px;
+  margin: 15px;
+}
+.wrapper{
+  display: flex;
+}
+
+.info{
+  margin-top: 15px;
+}

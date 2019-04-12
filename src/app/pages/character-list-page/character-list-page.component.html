@@ -1,0 +1,8 @@
+<app-list [stream]="dataService.getCharactersListById(1)" [template]="characterTemplate"></app-list>
+
+<ng-template #characterTemplate let-item="item">
+  <app-character-list-item
+    [character]="item"
+    (viewInfo)="navigateTo(item.id)">
+  </app-character-list-item>
+</ng-template>

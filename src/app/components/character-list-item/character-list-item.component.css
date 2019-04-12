@@ -1,0 +1,21 @@
+img{
+  width: 100px;
+  height: 100px;
+  display: block;
+  border-radius: 5px;
+}
+
+.wrapper{
+  display: inline-flex;
+  border-radius: 5px;
+  margin: 5px;
+  width: 24%;
+  background-color: whitesmoke;
+}
+.div-info{
+  padding: 5px;
+}
+
+button{
+  display: block;
+}

@@ -1,0 +1,9 @@
+<div class="wrapper">
+  <div class="div-img">
+    <img src={{character.image}} alt="">
+  </div>
+  <div class="div-info">
+    <p>Name: {{character.name}}</p>
+    <button type="button"(click)="viewInfo.emit(character.id)">More Info ></button>
+  </div>
+</div>
